@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+    .suggestedUserList {
+        margin: auto !important;
+    }
+
+    .requestList {
+        margin: auto !important;
+    }
+
+    .friendList {
+        margin: auto !important;
+    }
+}
+
+.friendList {
+    max-height: 100px;
+    max-width: 360px;
+    overflow: auto;
+}
+
+.suggestedUserList {
+    max-width: 360px;
+    max-height: 230px;
+    overflow: auto;
+}
+
+.requestList {
+    max-width: 360px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.acceptIcon {
+    color: #008000;
+}
+
+.rejectIcon {
+    color: #FF0000;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

@@ -1,0 +1,5 @@
+.checkedInList {
+    max-height: 120px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
